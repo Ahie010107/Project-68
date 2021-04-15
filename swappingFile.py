@@ -1,12 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 def swapFileData():
-    file1 = input("Sample1:- ")
-    file2 = input("Sample2:- ")
+    file1 = input("Sample1")
+    file2 = input("Sample2")
 
 
     with open(file1, 'r') as a:
@@ -22,16 +16,4 @@ def swapFileData():
     b.write(data_a)
 
 swapFileData()
-
-
-# In[ ]:
-
-
-9
-
-
-# In[ ]:
-
-
-
 
